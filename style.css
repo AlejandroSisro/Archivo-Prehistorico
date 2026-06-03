@@ -80,7 +80,7 @@ button
     border-radius: 25px;
     padding: 20px;
     border: none;
-    margin-bottom: 0.2%;
+    margin-top: 1%;
 }
 button:hover
 {
@@ -93,7 +93,7 @@ button:hover
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin-top: 50px;
+    margin-top: 1%;
     text-align: center;
 }
 
@@ -102,16 +102,51 @@ button:hover
     background-color: #F8F5EE;
     padding: 20px;
     border-radius: 25px;
-    width: 250px;
+    width: 500px;
 }
-
+h2
+{
+    font-size: 32px;
+}
+h3
+{
+    font-size: 24px;
+}
 .estadisticas h3
 {
-    font-size: 40px;
     margin: 0;
     color: #4F6F52;
 }
 .estadisticas article:hover
+{
+    transform: translateY(-5px);
+}
+.beneficios
+{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 1%;
+    text-align: center;
+}
+.beneficios article
+{
+    background-color: #F8F5EE;
+    border-radius: 25px;
+    width: auto;
+    height:auto;
+}
+.beneficios article img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:85%;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 0.1%;
+}
+.beneficios article:hover
 {
     transform: translateY(-5px);
 }
