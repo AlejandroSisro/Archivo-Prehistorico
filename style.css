@@ -25,11 +25,6 @@ header nav ul
     display: flex;
     gap: 5px;
 }
-header nav ul li 
-{
-    float: left;
-    margin-right: 20px;
-}
 header nav ul li a
 {
     display: block;
@@ -44,7 +39,6 @@ h1
 p
 {
     color: #2E2A26;
-    margin: auto;
     font-size: 18px;
 }
 h1,h2,h3,h4
@@ -92,4 +86,31 @@ button:hover
 {
     background-color: #3C5640;
     box-shadow: 0.1em 0.6em 0.7em #F8F5EE;
+}
+.estadisticas
+{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.estadisticas article
+{
+    background-color: #F8F5EE;
+    padding: 20px;
+    border-radius: 25px;
+    width: 250px;
+}
+
+.estadisticas h3
+{
+    font-size: 40px;
+    margin: 0;
+    color: #4F6F52;
+}
+.estadisticas article:hover
+{
+    transform: translateY(-5px);
 }
