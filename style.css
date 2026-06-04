@@ -39,6 +39,11 @@ footer p
 {
     color: #E8DCC4;
 }
+footer a
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
 .footer-links
 {
     list-style: none;
