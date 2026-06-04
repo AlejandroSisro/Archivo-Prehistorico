@@ -1,177 +1,276 @@
 *
 {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body
 {
-background-color: #E8DCC4;
-font-family: Arial, Helvetica, sans-serif;
-line-height: 2;
+    background-color: #E8DCC4;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
 }
 main
 {
-margin-top: 80px;
+    margin-top: 80px;
 }
 header
 {
-background-color: #6B4F3A;
-border-bottom: 15px solid #4F6F52;
-position: fixed;
-top: 0;
-left: 0;
-width:100%;
-z-index: 1000;
+    background-color: #6B4F3A;
+    border-bottom: 15px solid #4F6F52;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    z-index: 1000;
 }
 footer
 {
-background-color: #6B4F3A;
-border-top: 15px solid #4F6F52;
-padding: 30px;
-text-align: center;
+    background-color: #6B4F3A;
+    border-top: 15px solid #4F6F52;
+    padding: 30px;
+    text-align: center;
 }
 footer h3
 {
-color: #E8DCC4;
+    color: #E8DCC4;
 }
 footer p
 {
-color: #E8DCC4;
-}
-footer a
-{
-text-decoration: underline;
-font-weight: bold;
+    color: #E8DCC4;
 }
 .footer-links
 {
-list-style: none;
-padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .footer-links li
 {
-margin: 10px 0;
-color:#E8DCC4;
+    margin: 10px 0;
+    color:#E8DCC4;
 }
 header nav ul
 {
-list-style: none;
-margin: 0;
-padding: 0;
-display: flex;
-gap: 5px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 5px;
 }
 header nav ul li a
 {
-display: block;
-padding: 20px;
-text-decoration: none;
-transition: 0.3s;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.3s;
 }
 h1
 {
-font-size: 40px;
+    font-size: 40px;
 }
 p
 {
-color: #2E2A26;
-font-size: 18px;
+    color: #2E2A26;
+    font-size: 18px;
 }
 h1,h2,h3,h4,li,ul,h5
 {
-color: #4A3423;
+    color: #4A3423;
 }
 h1,h2,h3,h4,p,h5
 {
-text-align: center;
+    text-align: center;
 }
 header nav ul li a:hover
 {
-background-color: #4F6F52;
+    background-color: #4F6F52;
 }
 a
 {
-color:#F8F5EE;
-font-size: 18px;
-text-decoration: none;
+    color:#F8F5EE;
+    font-size: 18px;
 }
 #portada
 {
-width:100%;
-border-radius: 50px;
-display: block;
-margin-left: auto;
-margin-right: auto;
+    width:100%;
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .cta
 {
-display: flex;
-justify-content: center;
-gap: 20px;
-flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 button
 {
-width: auto;
-background-color: #4F6F52;
-border-radius: 25px;
-padding: 20px;
-border: none;
-margin-top: 1%;
-margin-bottom: 1%;
+    width: auto;
+    background-color: #4F6F52;
+    border-radius: 25px;
+    padding: 20px;
+    border: none;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 button:hover
 {
-background-color: #3C5640;
-box-shadow: 0.1em 0.6em 0.7em #F8F5EE;
-transform: translateY(-10px);
+    background-color: #3C5640;
+    box-shadow: 0.1em 0.6em 0.7em #F8F5EE;
+    transform: translateY(-10px);
 }
 .estadisticas
 {
-display: flex;
-justify-content: center;
-gap: 50px;
-margin-top: 1%;
-text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 1%;
+    text-align: center;
 }
 .estadisticas a
 {
-font-size: 0px;
-text-decoration: none;
+    font-size: 0px;
+    text-decoration: none;
 }
 .estadisticas article
 {
-border-top: 8px solid #4F6F52;
-background-color: #F8F5EE;
-padding: 20px;
-border-radius: 25px;
-width: 350px;
-height:200px;
-display: inline-block;
+    border-top: 8px solid #4F6F52;
+    background-color: #F8F5EE;
+    padding: 20px;
+    border-radius: 25px;
+    width: 350px;
+    height:200px;
+    display: inline-block;
 }
 h2
 {
-font-size: 32px;
+    font-size: 32px;
 }
 h3
 {
-font-size: 24px;
+    font-size: 24px;
 }
 .estadisticas h3
 {
-margin: 0;
-color: #4F6F52;
+    margin: 0;
+    color: #4F6F52;
 }
 .estadisticas article:hover
 {
-transform: translateY(-10px);
+    transform: translateY(-10px);
 }
 .beneficios
 {
-display: flex;
-justify-content: center;
-gap: 50px;
-margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 1%;
+    text-align: center;
+}
+.beneficios article
+{
+    background-color: #F8F5EE;
+    border-radius: 25px;
+    flex: 1;
+}
+.beneficios article img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:85%;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 0.1%;
+}
+.beneficios article:hover
+{
+    transform: translateY(-10px);
+}
+.arthropleura
+{
+    border-top: 10px solid #3E7C78;
+}
+.spinosaurus
+{
+    border-top: 10px solid #5A8F3D;
+}
+.megatherium
+{
+    border-top: 10px solid #B07A3A;
+}
+.estadisticas article,
+.beneficios article, button
+{
+    transition: transform 0.3s ease;
+}
+.compromiso
+{
+    text-align: center;
+    margin-top: 5px;
+}
 
+.compromiso ul
+{
+    margin-top: 0.1%;
+    list-style: none;
+}
+
+.compromiso li::before
+{
+    content: "✓ ";
+    color: #4F6F52;
+    font-weight: bold;
+}
+.compromiso
+{
+    background-color: #F8F5EE;
+    border-radius: 25px;
+    width:35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+}
+#UltimoCTA
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cta button
+{
+    width: 300px;
+}
+.animales section div article img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 0.1%;
+}
+.animales section div
+{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 1%;
+    text-align: center;
+}
+.animales section div article
+{
+    background-color: #F8F5EE;
+    border-radius: 25px;
+    flex: 1;
+    width:25%;
+}
+.animales section div article h4,h5
+{
+    text-align: center;
+}
