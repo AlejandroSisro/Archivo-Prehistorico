@@ -248,3 +248,32 @@ h3
 {
     width: 300px;
 }
+section div article img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:25%;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 0.1%;
+}
+.Pterosaurios
+{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 1%;
+    text-align: center;
+}
+section div article
+{
+    background-color: #F8F5EE;
+    border-radius: 25px;
+    flex: 1;
+    width:25%;
+}
+.Pterosaurios article h3,h4
+{
+    text-align: center;
+}
