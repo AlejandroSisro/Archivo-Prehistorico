@@ -248,16 +248,6 @@ h3
 {
     width: 300px;
 }
-.animales section div article img
-{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:100%;
-    padding: 20px;
-    border-radius: 50px;
-    margin-bottom: 0.1%;
-}
 .animales section div
 {
     display: flex;
@@ -266,23 +256,46 @@ h3
     margin-top: 1%;
     text-align: center;
 }
+
+.animales section div a
+{
+    flex: 1;
+    width: 25%;
+    text-decoration: none;
+}
+
 .animales section div article
 {
     background-color: #F8F5EE;
     border-radius: 25px;
-    flex: 1;
-    width:25%;
     margin-bottom: 3%;
+    height: 100%;
 }
-.animales section div article h4,h5
+
+.animales section div article img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 0.1%;
+}
+
+.animales section div article h4,
+.animales section div article h5
 {
     text-align: center;
 }
-.animales section div article
+
+.animales section div a
 {
     transition: transform 0.3s ease;
+    margin-bottom: 3%;
 }
-.animales article:hover
+
+.animales section div a:hover article
 {
     transform: translateY(-10px);
 }
