@@ -1,8 +1,14 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body
 {
     background-color: #E8DCC4;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
+    line-height: 2;
 }
 main
 {
@@ -16,6 +22,33 @@ header
     top: 0;
     left: 0;
     width:100%;
+    z-index: 1000;
+}
+footer
+{
+    background-color: #6B4F3A;
+    border-top: 15px solid #4F6F52;
+    padding: 30px;
+    text-align: center;
+}
+footer h3
+{
+    color: #E8DCC4;
+}
+footer p
+{
+    color: #E8DCC4;
+}
+.footer-links
+{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li
+{
+    margin: 10px 0;
+    color:#E8DCC4;
 }
 header nav ul
 {
@@ -41,7 +74,7 @@ p
     color: #2E2A26;
     font-size: 18px;
 }
-h1,h2,h3,h4
+h1,h2,h3,h4,li,ul
 {
     color: #4A3423;
 }
@@ -81,12 +114,13 @@ button
     padding: 20px;
     border: none;
     margin-top: 1%;
+    margin-bottom: 1%;
 }
 button:hover
 {
     background-color: #3C5640;
     box-shadow: 0.1em 0.6em 0.7em #F8F5EE;
-    transform: translateY(-5px);
+    transform: translateY(-10px);
 }
 .estadisticas
 {
@@ -96,13 +130,20 @@ button:hover
     margin-top: 1%;
     text-align: center;
 }
-
+.estadisticas a
+{
+    font-size: 0px;
+    text-decoration: none;
+}
 .estadisticas article
 {
+    border-top: 8px solid #4F6F52;
     background-color: #F8F5EE;
     padding: 20px;
     border-radius: 25px;
-    width: 500px;
+    width: 350px;
+    height:200px;
+    display: inline-block;
 }
 h2
 {
@@ -119,7 +160,7 @@ h3
 }
 .estadisticas article:hover
 {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
 }
 .beneficios
 {
@@ -133,8 +174,7 @@ h3
 {
     background-color: #F8F5EE;
     border-radius: 25px;
-    width: auto;
-    height:auto;
+    flex: 1;
 }
 .beneficios article img
 {
@@ -148,5 +188,60 @@ h3
 }
 .beneficios article:hover
 {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
+}
+.arthropleura
+{
+    border-top: 10px solid #3E7C78;
+}
+.spinosaurus
+{
+    border-top: 10px solid #5A8F3D;
+}
+.megatherium
+{
+    border-top: 10px solid #B07A3A;
+}
+.estadisticas article,
+.beneficios article, button
+{
+    transition: transform 0.3s ease;
+}
+.compromiso
+{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.compromiso ul
+{
+    margin-top: 0.1%;
+    list-style: none;
+}
+
+.compromiso li::before
+{
+    content: "✓ ";
+    color: #4F6F52;
+    font-weight: bold;
+}
+.compromiso
+{
+    background-color: #F8F5EE;
+    border-radius: 25px;
+    width:35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+}
+#UltimoCTA
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cta button
+{
+    width: 300px;
 }
