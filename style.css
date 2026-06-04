@@ -90,6 +90,7 @@ a
 {
     color:#F8F5EE;
     font-size: 18px;
+    text-decoration: none;
 }
 #portada
 {
@@ -202,8 +203,7 @@ h3
 {
     border-top: 10px solid #B07A3A;
 }
-.estadisticas article,
-.beneficios article, button
+.estadisticas article, .beneficios article, button
 {
     transition: transform 0.3s ease;
 }
@@ -212,13 +212,11 @@ h3
     text-align: center;
     margin-top: 5px;
 }
-
 .compromiso ul
 {
     margin-top: 0.1%;
     list-style: none;
 }
-
 .compromiso li::before
 {
     content: "✓ ";
