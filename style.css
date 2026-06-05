@@ -327,13 +327,14 @@ main
 {
     margin-top: 8%;
 }
-.Denversaurus img
+.Animal img
 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
-    width:70%
+    width:50%;
+    border-top: 10px solid #5A8F3D;
 }
 .Clasificacion
 {
@@ -356,7 +357,10 @@ main
     margin: 0;
     padding-left: 1.5rem;
 }
-
+.Clasificacion img
+{
+    width:100%;
+}
 .Clasificacion p
 {
     margin: 1rem 0;
@@ -365,8 +369,12 @@ main
 {
     margin-top: -7%;
 }
-.Denversaurus p
+.Animal p
 {
     margin: 1%;
     text-align: left;
+}
+#Grande
+{
+    width:75%;
 }
