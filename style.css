@@ -299,3 +299,15 @@ h3
 {
     transform: translateY(-10px);
 }
+.Paleozoico div a article
+{
+    border-top: 10px solid #3E7C78;
+}
+.Mesozoico div a article
+{
+    border-top: 10px solid #5A8F3D;
+}
+.Cenozoico div a article
+{
+    border-top: 10px solid #B07A3A;
+}
