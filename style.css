@@ -30,6 +30,7 @@ footer
     border-top: 15px solid #4F6F52;
     padding: 30px;
     text-align: center;
+    margin-top: 3%;
 }
 footer h3
 {
@@ -326,39 +327,46 @@ main
 {
     margin-top: 8%;
 }
-main img
+.Denversaurus img
 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
+    width:70%
 }
-main article h2
-{
-    text-align: center;
-    margin-top: -1%;
-}
-main article
+.Clasificacion
 {
     background-color: #F8F5EE;
     border-radius: 25px;
     margin: 2% auto;
     width: min(700px, 90%);
+    padding: 2rem;
+    line-height: 1.8;
+    box-sizing: border-box;
 }
-main article ul
+.Clasificacion h2
 {
-    margin: 6%;
-    margin-top: -3.5%;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: left;
 }
-main article p
+.Clasificacion ul
 {
-    margin-top: -1%;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.6;
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+.Clasificacion p
+{
+    margin: 1rem 0;
 }
 #especie
 {
     margin-top: -7%;
+}
+.Denversaurus p
+{
+    margin: 1%;
+    text-align: left;
 }
