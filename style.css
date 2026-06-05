@@ -336,13 +336,14 @@ main img
 main article h2
 {
     text-align: center;
+    margin-top: -1%;
 }
 main article
 {
     background-color: #F8F5EE;
     border-radius: 25px;
-    margin: 2%;
-    width:25%;
+    margin: 2% auto;
+    width: min(700px, 90%);
 }
 main article ul
 {
@@ -352,4 +353,12 @@ main article ul
 main article p
 {
     margin-top: -1%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+#especie
+{
+    margin-top: -7%;
 }
