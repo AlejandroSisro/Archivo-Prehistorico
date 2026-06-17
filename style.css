@@ -346,7 +346,7 @@ main
     line-height: 1.8;
     box-sizing: border-box;
 }
-.Clasificacion h2
+.Clasificacion h2,h3
 {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
