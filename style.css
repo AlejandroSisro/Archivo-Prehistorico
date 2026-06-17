@@ -346,10 +346,13 @@ main
     line-height: 1.8;
     box-sizing: border-box;
 }
-.Clasificacion h2,h3
+.Clasificacion h2
 {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
+}
+.Clasificacion h3,h2
+{
     text-align: left;
 }
 .Clasificacion ul
