@@ -350,8 +350,9 @@ main
 {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
+    text-align: left;
 }
-.Clasificacion h3,h2
+.Clasificacion h3
 {
     text-align: left;
 }
